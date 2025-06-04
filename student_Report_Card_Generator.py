@@ -9,6 +9,7 @@
 
 # Class Topper: Charlie (92.00 average)
 
+print("\n----------- STUDENTS REPOST CARD OF CALSS 'XTH' -----------")
 max_avg = 0
 topper = ""
 
@@ -35,8 +36,8 @@ for name, scores, enroll, *hobbies in students:
     print(f"- Average {avg:.2f}")
     print(f"- Hobbies : {', '.join(hobbies)}")
 
-print("\n---------------------------------------------------------\n")
+print("\n--------------- CLASS TOPPER ANNOUNCEMENT ------------------\n")
 
 # print topper's result
-print(f"CLASS TOPPER : {topper} ({max_avg}:.2f Average)\n")
+print(f"CLASS TOPPER : {topper} ({max_avg:.2f} Average)\n")
 
