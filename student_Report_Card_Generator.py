@@ -9,6 +9,9 @@
 
 # Class Topper: Charlie (92.00 average)
 
+max_avg = 0
+topper = ""
+
 students = [
     ("Alice", (85, 90, 78), 101, "painting", "reading"),
     ("Bob", (72, 88, 91), 102, "chess"),
@@ -22,3 +25,13 @@ for name, scores, enroll, *hobbies in students:
     # unpacking scores (tuple)
     math, sci, eng = scores
     print(f"- Scores : Math : {math}, Science: {sci}, English : {eng}")
+
+    # calculation of average. to get maximum average score
+    avg = sum(scores) / len(scores)
+    if avg >= max_avg:
+        # update maximum average and name of student
+        max_avg = avg
+        topper = name
+    print(f"- Average {avg:.2f}")
+    print(f"- Hobbies : {', '.join(hobbies)}")
+
