@@ -1,22 +1,16 @@
 # STUDENT REPORT CARD GENERATOR USING PYTHON tuple
 
-# 📄 Report Card for Alice (Roll No: 101)
-# - Scores: Math: 85, Science: 90, English: 78
-# - Average: 84.33
-# - Hobbies: painting, reading
-
-# -----------------------------------
-
-# Class Topper: Charlie (92.00 average)
 
 print("\n----------- STUDENTS REPOST CARD OF CALSS 'XTH' -----------")
 max_avg = 0
 topper = ""
 
 students = [
-    ("Alice", (85, 90, 78), 101, "painting", "reading"),
-    ("Bob", (72, 88, 91), 102, "chess"),
-    ("Charlie", (95, 92, 89), 103, "football", "gaming")
+    ("Nandini", (85, 90, 78), 101, "painting", "reading"),
+    ("Isha", (72, 88, 91), 102, "chess"),
+    ("Naina", (95, 92, 89), 103, "football", "gaming"),
+    ("Arnish", (56,85,96), 104, "dancing", "swimming", "gaming"),
+    ("Anant", (78,99,96), 105, "chess", "reading")
 ]
 
 # Accessing each item of tuple using loops
