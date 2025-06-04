@@ -29,6 +29,7 @@ students = [
 
 
 🖥 Sample Output
+![Sample Output](assets/output.png)
 
 📄 Report Card for Alice (Roll No: 101)
 - Scores: Math: 85, Science: 90, English: 78
