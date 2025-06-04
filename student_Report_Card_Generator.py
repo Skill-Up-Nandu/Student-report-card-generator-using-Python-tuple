@@ -1,7 +1,7 @@
 # STUDENT REPORT CARD GENERATOR USING PYTHON tuple
 
 
-print("\n----------- STUDENTS REPOST CARD OF CALSS 'XTH' -----------")
+print("\n----------- STUDENTS REPORT CARD OF CLASS 'XTH' -----------")
 max_avg = 0
 topper = ""
 
@@ -15,7 +15,7 @@ students = [
 
 # Accessing each item of tuple using loops
 for name, scores, enroll, *hobbies in students:
-    print(f"\n📄 Repost Card for {name} (Roll No: {enroll})")
+    print(f"\n📄 Report Card for {name} (Roll No: {enroll})")
 
     # unpacking scores (tuple)
     math, sci, eng = scores
@@ -23,7 +23,7 @@ for name, scores, enroll, *hobbies in students:
 
     # calculation of average. to get maximum average score
     avg = sum(scores) / len(scores)
-    if avg >= max_avg:
+    if avg > max_avg:
         # update maximum average and name of student
         max_avg = avg
         topper = name
