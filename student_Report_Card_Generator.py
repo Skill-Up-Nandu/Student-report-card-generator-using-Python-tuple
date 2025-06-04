@@ -35,3 +35,8 @@ for name, scores, enroll, *hobbies in students:
     print(f"- Average {avg:.2f}")
     print(f"- Hobbies : {', '.join(hobbies)}")
 
+print("\n---------------------------------------------------------\n")
+
+# print topper's result
+print(f"CLASS TOPPER : {topper} ({max_avg}:.2f Average)\n")
+
