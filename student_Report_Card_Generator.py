@@ -8,9 +8,9 @@ topper = ""
 students = [
     ("Nandini", (85, 90, 78), 101, "painting", "reading"),
     ("Isha", (72, 88, 91), 102, "chess"),
+    ("Anant", (100,99,96), 105, "chess", "reading"),
     ("Naina", (95, 92, 89), 103, "football", "gaming"),
-    ("Arnish", (56,85,96), 104, "dancing", "swimming", "gaming"),
-    ("Anant", (78,99,96), 105, "chess", "reading")
+    ("Arnish", (56,85,96), 104, "dancing", "swimming", "gaming")
 ]
 
 # Accessing each item of tuple using loops
@@ -27,7 +27,7 @@ for name, scores, enroll, *hobbies in students:
         # update maximum average and name of student
         max_avg = avg
         topper = name
-    print(f"- Average {avg:.2f}")
+    print(f"- Average : {avg:.2f}")
     print(f"- Hobbies : {', '.join(hobbies)}")
 
 print("\n--------------- CLASS TOPPER ANNOUNCEMENT ------------------\n")
